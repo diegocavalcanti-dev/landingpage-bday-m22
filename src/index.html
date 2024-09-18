@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Contagem regressiva para meu aniversário em <span id="contador"></span>!
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Londres - Inglaterra
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        07/07/2025
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Horário</b>
+                        19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Confirmar presença</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--aboutme">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h1 class="event__details__title">Festa do Diego</h1>
+                <p class="event__details__description">
+                    Estou sempre em busca de diversão e momentos inesquecíveis com amigos. Irei celebrar meu aniversário de uma maneira especial, trazendo tudo que eu mais gosto: boa música, drinks incríveis e uma vibe única. Prepare-se para curtir uma festa que você não vai esquecer! 
+                </p>
+            </div>
+        </div>
+        <div class="container tag-up" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">O que teremos na festa</h2>
+                <p class="event__details__description">
+                    A festa vai ser incrível! Teremos uma pista de dança com DJ ao vivo, um bar exclusivo com drinks personalizados, um lounge para relaxar e uma variedade de comidas de boteco para acompanhar. Tudo foi pensado para proporcionar uma noite inesquecível com muita diversão e boas vibrações!
+                </p>
+                <p class="event__details__description__item">
+                    <b>CONFIRA A SEGUIR:</b>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="event event--dancefloor">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Pista de Dança</h2>
+                <p class="event__details__description">
+                    Prepare-se para dançar a noite inteira com os melhores hits da balada! A pista de dança estará iluminada com efeitos incríveis e um DJ ao vivo garantindo que ninguém fique parado.
+                </p>
+            </div>
+            <img class="event__image" src="./images/dancefloor.png" alt="Pista de dança" data-aos="zoom-in-left">
+        </div>
+    </section>
+    <section class="event event--bar event--image-left">
+        <div class="container">
+            <div class="event__details" data-aos="fade-left">
+                <h2 class="event__details__title">Bar Exclusivo</h2>
+                <p class="event__details__description">
+                    Um bar completo com drinks exclusivos para a noite, preparados por bartenders profissionais. Além dos clássicos, você poderá experimentar coquetéis especiais criados especialmente para a festa.
+                </p>
+            </div>
+            <img class="event__image" src="./images/bar.png" alt="Bar" data-aos="fade-down-right" >
+        </div>
+    </section>
+    <section class="event event--lounge">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Lounge Chill</h2>
+                <p class="event__details__description">
+                    Para quem quiser um descanso, o lounge estará disponível com sofás confortáveis e música ambiente. Perfeito para relaxar e bater um papo entre uma dança e outra.
+                </p>
+            </div>
+            <img class="event__image" src="./images/lounge.png" alt="Lounge Chill" data-aos="flip-up">
+        </div>
+    </section>
+    <section class="event event--boteco event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Comida de Boteco</h2>
+                <p class="event__details__description">
+                    Para completar, teremos uma seleção especial de comidas de boteco, incluindo petiscos deliciosos para manter a energia da galera. Sabores irresistíveis que vão combinar perfeitamente com os drinks!
+                </p>
+            </div>
+            <img class="event__image" src="./images/boteco.png" alt="Comida de Boteco" data-aos="zoom-in">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
